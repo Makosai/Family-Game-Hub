@@ -171,7 +171,7 @@ TextureImporter:
       213: 414438015416150833
     second: Joker_2
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -188,9 +188,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -200,8 +203,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -222,11 +225,17 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -237,7 +246,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -248,6 +258,19 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1437,9 +1460,65 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      10_Club: 7991530658200669373
+      10_Diamond: -8781732819212590348
+      10_Heart: -1509352003468389408
+      10_Spade: -2413852304482527502
+      2_Club: -681101681698349018
+      2_Diamond: -8709685026722601325
+      2_Heart: -4367284564263631755
+      2_Spade: -7917010809921688878
+      3_Club: -960882843745312163
+      3_Diamond: -4516237115201669631
+      3_Heart: -5085324393851001539
+      3_Spade: -9192352105733323567
+      4_Club: -8636438075815445334
+      4_Diamond: -4184726846618072397
+      4_Heart: -504618274122024971
+      4_Spade: 3117460237096559070
+      5_Club: 5134120919787300631
+      5_Diamond: -2683912091886486618
+      5_Heart: -7479042640850010858
+      5_Spade: 4570339528869495663
+      6_Club: 1113812728336201195
+      6_Diamond: -5644602428942954280
+      6_Heart: -7609936224570548363
+      6_Spade: -6824673898005036871
+      7_Club: -3131777922943607023
+      7_Diamond: -5726274757668947827
+      7_Heart: -6935490689699215475
+      7_Spade: -5375314839298699354
+      8_Club: 5539619460121413857
+      8_Diamond: 4078381388142216201
+      8_Heart: -1474464877113143262
+      8_Spade: 3919728710870328862
+      9_Club: 2555120058361253066
+      9_Diamond: -2827702176228875166
+      9_Heart: 1847672913009184596
+      9_Spade: 8041726437806728482
+      A_Club: -1558256198040742725
+      A_Diamond: 1398550166952371362
+      A_Heart: -7718001863037833961
+      A_Spade: -8891897167581227593
+      Back_Blue: 6140023226805848091
+      Back_Red: -1845610539307069294
+      J_Club: -815596453038514580
+      J_Diamond: -4328796490460359026
+      J_Heart: -6729117102791497281
+      J_Spade: -6856541772147228392
+      Joker_1: 9204996813263440317
+      Joker_2: 414438015416150833
+      K_Club: -355947410311452910
+      K_Diamond: 7615943477016925495
+      K_Heart: -411240374022982774
+      K_Spade: -9011481393528888988
+      Q_Club: -2188492848833769904
+      Q_Diamond: 4124004475949646406
+      Q_Heart: -7591378726260692047
+      Q_Spade: -521662694217548675
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
