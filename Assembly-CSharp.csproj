@@ -62,8 +62,10 @@
     <Compile Include="Assets\FGH\Core\Deck.cs" />
     <Compile Include="Assets\FGH\Blackjack\Hand.cs" />
     <Compile Include="Assets\FGH\Blackjack\Player.cs" />
+    <Compile Include="Assets\FGH\Core\BoardGenerator.cs" />
     <Compile Include="Assets\FGH\Blackjack\Hands.cs" />
     <Compile Include="Assets\FGH\Core\Card.cs" />
+    <Compile Include="Assets\FGH\Core\BoardGen_4InARow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -711,11 +713,11 @@
     <Reference Include="Unity.Mediation">
       <HintPath>Library\ScriptAssemblies\Unity.Mediation.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Purchasing.SecurityStub">
       <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
