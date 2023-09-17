@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://412ec5ikiyhr"]
+
+[ext_resource type="Script" path="res://scenes/tic_tac_toe/tic_tac_toe_game.gd" id="1_a1njq"]
+[ext_resource type="Texture2D" uid="uid://doyj8mdfccifh" path="res://assets/tic_tac_toe/board/board_background.svg" id="1_ns2c5"]
+[ext_resource type="Texture2D" uid="uid://dnh2mbkgrcquv" path="res://assets/tic_tac_toe/board/board_complete.svg" id="2_8grvf"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+offset = Vector2(624, 624)
+zoom = Vector2(0.25, 0.25)
+
+[node name="Game" type="Node" parent="."]
+script = ExtResource("1_a1njq")
+
+[node name="Pieces" type="Node" parent="Game"]
+
+[node name="Board" type="Node" parent="Game"]
+
+[node name="BoardBackground" type="Sprite2D" parent="Game/Board"]
+position = Vector2(624, 624)
+scale = Vector2(10, 10)
+texture = ExtResource("1_ns2c5")
+
+[node name="BoardComplete" type="Sprite2D" parent="Game/Board"]
+position = Vector2(624, 624)
+texture = ExtResource("2_8grvf")
