@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://ckn7mrdwoytlf"]
+
+[ext_resource type="Script" path="res://scenes/tic_tac_toe/tic_tac_toe_game.gd" id="1_2038g"]
+[ext_resource type="Texture2D" uid="uid://dnh2mbkgrcquv" path="res://assets/tic_tac_toe/board/board_complete.svg" id="3_61nho"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_2038g")
+
+[node name="Board" type="Node2D" parent="."]
+
+[node name="BoardComplete" type="Sprite2D" parent="Board"]
+position = Vector2(624, 624)
+texture = ExtResource("3_61nho")
+
+[node name="Pieces" type="Node" parent="Board"]
+
+[node name="Selectors" type="Node" parent="Board"]

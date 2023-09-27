@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="333.33301"
+   height="333.33301"
+   viewBox="0 0 88.194357 88.194357"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="pieces_x.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title1">Pieces X</title>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.38351221"
+     inkscape:cx="404.15923"
+     inkscape:cy="277.6965"
+     inkscape:window-width="1853"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect1"
+       style="fill:#ff3d3d;fill-opacity:1;stroke-width:0.264583"
+       d="m 19.257525,10.280711 c -2.292554,0 -4.585058,0.87848 -6.341732,2.635154 -3.5133464,3.513346 -3.5133464,9.170116 0,12.683463 L 31.413716,44.097252 12.915793,62.595175 c -3.5133464,3.513343 -3.5133464,9.170117 0,12.683463 3.513346,3.513344 9.170117,3.513344 12.683464,0 L 44.097178,56.780715 62.595101,75.278638 c 3.513347,3.513344 9.170117,3.513344 12.683463,0 3.513347,-3.513346 3.513347,-9.17012 0,-12.683463 L 56.780641,44.097252 75.278564,25.599328 c 3.513347,-3.513346 3.513347,-9.170117 0,-12.683463 -3.513346,-3.513347 -9.170116,-3.513347 -12.683463,0 L 44.097178,31.413787 25.599257,12.915865 c -1.756674,-1.756674 -4.049178,-2.635154 -6.341732,-2.635154 z" />
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Pieces X</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

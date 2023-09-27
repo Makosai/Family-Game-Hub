@@ -1,0 +1,62 @@
+[gd_scene load_steps=7 format=3 uid="uid://412ec5ikiyhr"]
+
+[ext_resource type="PackedScene" uid="uid://ckn7mrdwoytlf" path="res://scenes/tic_tac_toe/game.tscn" id="1_2qu57"]
+[ext_resource type="Script" path="res://scenes/tic_tac_toe/tic_tac_toe_manager.gd" id="1_lblcp"]
+[ext_resource type="Texture2D" uid="uid://doyj8mdfccifh" path="res://assets/tic_tac_toe/board/board_background.svg" id="1_ns2c5"]
+[ext_resource type="Theme" uid="uid://qll2p1r7n30t" path="res://scenes/tic_tac_toe/tic_tac_toe.tres" id="4_545xb"]
+[ext_resource type="FontFile" uid="uid://brd6ssvkshslk" path="res://fonts/Nunito/static/Nunito-BlackItalic.ttf" id="5_nypki"]
+[ext_resource type="Theme" uid="uid://cpbtt70r63yol" path="res://scenes/tic_tac_toe/tic_tac_toe_bg.tres" id="6_j0j8w"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="BoardBackground" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(624, 624)
+scale = Vector2(10, 10)
+texture = ExtResource("1_ns2c5")
+
+[node name="Games" type="Node" parent="."]
+script = ExtResource("1_lblcp")
+
+[node name="Game" parent="Games" instance=ExtResource("1_2qu57")]
+
+[node name="Status" type="RichTextLabel" parent="."]
+top_level = true
+z_index = 2
+anchors_preset = -1
+anchor_left = 0.108
+anchor_top = -0.117
+anchor_right = 0.108
+anchor_bottom = -0.117
+offset_left = -0.416
+offset_top = -73.184
+offset_right = 998.584
+offset_bottom = 73.816
+theme = ExtResource("4_545xb")
+theme_override_fonts/italics_font = ExtResource("5_nypki")
+bbcode_enabled = true
+text = "[center]Ready Player [i][color=#ff3d3d]Two[/color][/i]![/center]"
+scroll_active = false
+
+[node name="WinMsg" type="RichTextLabel" parent="."]
+z_index = 1
+offset_left = 106.0
+offset_top = 538.0
+offset_right = 1137.0
+offset_bottom = 698.0
+theme = ExtResource("6_j0j8w")
+theme_override_font_sizes/normal_font_size = 130
+bbcode_enabled = true
+text = "[center]Player [i][color=#ff3d3d]O[/color][/i] wins![/center]"
+scroll_active = false
+
+[node name="Super" type="Button" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Main Camera2D" type="Camera2D" parent="."]
+visible = false
+position = Vector2(624, 624)
+zoom = Vector2(0.25, 0.25)
+
+[editable path="Games/Game"]

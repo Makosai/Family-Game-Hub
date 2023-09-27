@@ -1,0 +1,8 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://qll2p1r7n30t"]
+
+[ext_resource type="FontFile" uid="uid://cvl0migkjbg2m" path="res://fonts/Nunito/static/Nunito-Black.ttf" id="1_m7p3c"]
+
+[resource]
+default_font = ExtResource("1_m7p3c")
+default_font_size = 100
+RichTextLabel/styles/normal = null
