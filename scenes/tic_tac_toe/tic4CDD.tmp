@@ -47,20 +47,15 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Main Camera2D" type="Camera2D" parent="Control"]
-position = Vector2(577, 323)
-zoom = Vector2(0.6, 0.6)
-
 [node name="Status" type="RichTextLabel" parent="Control"]
-z_index = 3
+top_level = true
+z_index = 2
 layout_mode = 1
 anchors_preset = -1
 offset_left = 451.125
 offset_top = 139.0
 offset_right = 700.875
 offset_bottom = 175.75
-grow_horizontal = 2
-grow_vertical = 2
 theme = ExtResource("4_545xb")
 theme_override_fonts/italics_font = ExtResource("5_nypki")
 bbcode_enabled = true
@@ -68,7 +63,7 @@ text = "[center]Ready Player [i][color=#ff3d3d]Two[/color][/i]![/center]"
 scroll_active = false
 
 [node name="WinMsg" type="RichTextLabel" parent="Control"]
-z_index = 3
+z_index = 2
 layout_mode = 1
 anchors_preset = -1
 offset_left = 418.0
@@ -84,7 +79,7 @@ text = "[center]Player [i][color=#ff3d3d]O[/color][/i] wins![/center]"
 scroll_active = false
 
 [node name="SuperToggle" type="Button" parent="Control"]
-z_index = 3
+z_index = 2
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -98,5 +93,8 @@ offset_bottom = 306.999
 grow_horizontal = 2
 grow_vertical = 2
 text = "Test Super TTT"
+
+[node name="Main Camera2D" type="Camera2D" parent="."]
+position = Vector2(577, 323)
 
 [editable path="Games/Game"]

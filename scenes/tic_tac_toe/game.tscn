@@ -9,7 +9,8 @@ script = ExtResource("1_2038g")
 [node name="Board" type="Node2D" parent="."]
 
 [node name="BoardComplete" type="Sprite2D" parent="Board"]
-position = Vector2(624, 624)
+position = Vector2(577, 327)
+scale = Vector2(0.25, 0.25)
 texture = ExtResource("3_61nho")
 
 [node name="Pieces" type="Node" parent="Board"]

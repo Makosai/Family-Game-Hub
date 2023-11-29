@@ -4,5 +4,5 @@
 
 [resource]
 default_font = ExtResource("1_m7p3c")
-default_font_size = 100
+default_font_size = 25
 RichTextLabel/styles/normal = null
