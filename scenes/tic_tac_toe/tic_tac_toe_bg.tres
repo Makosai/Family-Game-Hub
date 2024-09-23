@@ -5,12 +5,12 @@
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8cgpo"]
 bg_color = Color(0.0941176, 0.0941176, 0.0941176, 0.501961)
 border_color = Color(0.168627, 0.168627, 0.168627, 0.278431)
-corner_radius_top_left = 48
-corner_radius_top_right = 48
-corner_radius_bottom_right = 48
-corner_radius_bottom_left = 48
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
 
 [resource]
 default_font = ExtResource("1_hky54")
-default_font_size = 100
+default_font_size = 25
 RichTextLabel/styles/normal = SubResource("StyleBoxFlat_8cgpo")
