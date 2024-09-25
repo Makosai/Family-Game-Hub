@@ -12,9 +12,13 @@ config_version=5
 
 config/name="Family Game Hub"
 run/main_scene="res://scenes/tic_tac_toe/tic_tac_toe.tscn"
-config/features=PackedStringArray("4.1", "Forward Plus")
+config/features=PackedStringArray("4.3", "Forward Plus")
 run/low_processor_mode=true
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/aspect="keep_height"
 
 [editor_plugins]
 
